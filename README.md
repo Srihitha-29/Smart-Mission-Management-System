@@ -33,3 +33,8 @@ A Java-based console application for managing space mission records.
 1. Compile all Java files
 2. Run Main.java
 3. Use the menu options to manage missions
+
+## Demo
+<img width="1366" height="768" alt="mission png" src="https://github.com/user-attachments/assets/62f6ef9c-271c-4d8b-bd34-e9465c274624" />
+<img width="1366" height="768" alt="mission-txt png" src="https://github.com/user-attachments/assets/815c3772-1574-48ce-9087-c1b535bf7154" />
+
