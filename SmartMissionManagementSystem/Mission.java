@@ -28,7 +28,7 @@ class Mission {
         return missionName;
     }
 
-    public void setMissionName(String missonName) {
+    public void setMissionName(String missionName) {
         this.missionName = missionName;
     }
 
@@ -41,7 +41,7 @@ class Mission {
     }
 
     public String getrocketName() {
-        return launchDate;
+        return rocketName;
     }
 
     public void setrocketName(String rocketName) {
@@ -66,23 +66,12 @@ class Mission {
 
     @Override
     public String toString() {
-        return "Mission ID: " + missionId +
-                "\nMission Name: " + missionName +
-                "\nLaunch Date: " + launchDate +
-                "\nRocket Name: " + rocketName +
-                "\nBudget: " + budget +
-                "\nStatus: " + status +
+        return "Mission ID   : " + missionId +
+                "\nMission Name : " + missionName +
+                "\nLaunch Date  : " + launchDate +
+                "\nRocket Name  : " + rocketName +
+                "\nBudget       : " + budget +
+                "\nStatus       : " + status +
                 "\n----------------------";
-
     }
-
-    // public static void main(String[] args) {
-    // MissionService service = new MissionService();
-    // Mission m1 = new Mission(1, "Chandrayaan", "2025-03-10", "LVM3", 250000000,
-    // "Planned");
-    // // System.out.println(m1);
-    // service.addMission(m1);
-    // service.displayAll();
-
-    // }
 }
