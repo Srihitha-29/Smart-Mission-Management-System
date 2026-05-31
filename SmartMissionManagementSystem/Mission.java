@@ -28,7 +28,7 @@ class Mission {
         return missionName;
     }
 
-    public void setMissionName(String missionName) {
+      public void setMissionName(String missionName) {
         this.missionName = missionName;
     }
 
@@ -40,7 +40,7 @@ class Mission {
         this.launchDate = launchDate;
     }
 
-    public String getrocketName() {
+        public String getrocketName() {
         return rocketName;
     }
 
